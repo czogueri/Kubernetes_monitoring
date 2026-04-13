@@ -14,19 +14,19 @@
 ## 📸 Live Project Screenshots
 
 ### Grafana — Kubernetes Compute Resources / Cluster
-![Grafana Cluster Dashboard](screenshots/grafana-cluster.png)
+![Grafana Cluster](Grafana%20Cluster.png)
 *Live cluster-wide memory usage by namespace — monitoring stack consuming 834 MiB, ArgoCD at 310 MiB, Jenkins at 365 MiB. Network bandwidth tracked per namespace showing MetalLB handling 835 kb/s transmit throughput.*
 
 ---
 
 ### Grafana — Kubernetes Kubelet Dashboard
-![Grafana Kubelet Dashboard](screenshots/grafana-kubelet.png)
+![Grafana Kubelet](Grafana%20kubelet.png)
 *Real-time kubelet stats across all 4 nodes — 4 running kubelets, 42 running pods, 88 running containers, 103 volumes mounted with zero config errors. Operation rate and pod start duration tracked at the 99th percentile.*
 
 ---
 
 ### Grafana — Kubernetes Networking / Namespace (Pods)
-![Grafana Networking Dashboard](screenshots/grafana-networking.png)
+![Grafana Networking](Grafana%20Networking.png)
 *Per-pod network monitoring for the ArgoCD namespace — live gauge showing 10.2 kb/s receive and 4.36 kb/s transmit bandwidth. Full breakdown of receive/transmit bandwidth per ArgoCD component (application-controller, repo-server, redis, dex-server).*
 
 ---
